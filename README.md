@@ -16,6 +16,16 @@ This app is built on React. Below are few other libraries used:
     "react-scripts": "3.4.0"
 
 ```
+### Screenshots
+
+![Home](https://raw.githubusercontent.com/avinashadluri/abnsearch/master/public/Home.png)
+
+
+![Suggestions](https://raw.githubusercontent.com/avinashadluri/abnsearch/master/public/Suggestions.png)
+
+
+![Results](https://raw.githubusercontent.com/avinashadluri/abnsearch/master/public/Results.png)
+
 
 ### Installing
 
