@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component Test rendering 1`] = `
+<div
+  className="headerWrapper"
+>
+  <div
+    className="headerText"
+  >
+    ABN Search tool
+  </div>
+</div>
+`;

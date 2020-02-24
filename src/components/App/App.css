@@ -1,0 +1,103 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.wrapper {
+  /* height: 100%; */
+  background: white;
+}
+
+.topSection {
+  text-align: center;
+}
+
+input {
+  border: none;
+  padding: 0.5rem;
+  width: 40%;
+  border-bottom: 2px solid #333;
+  font-size: 18px;
+  outline: none;
+}
+input:focus {
+  border-bottom: 4px solid #333;
+}
+
+.inputSection {
+  text-align: center;
+}
+
+.suggestionsSection {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.suggestions {
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  overflow-y: auto;
+  padding-left: 0;
+  width: 100%;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.suggestions li {
+  padding: 0.5rem;
+}
+
+.suggestionActive,
+.suggestions li:hover {
+  background-color: #1776d2;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #999;
+}
+
+.noSuggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+
+.resultSection {
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  min-width: 75%;
+  padding: 20px;
+}
+
+table {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr {
+  border: 3px solid black;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1pt solid #0000001a;
+}
