@@ -1,87 +1,64 @@
-# Project Title
+# ABN Search tool
 
-One Paragraph of project description goes here
+This app will help to search for an ABN with it's name or company name.
 
-## Getting Started
+### Tools/Libraries
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+This app is built on React. Below are few other libraries used:
 
 ```
-Give examples
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "enzyme": "^3.11.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0"
+
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+To run this application:
 
 Say what the step will be
 
 ```
-Give the example
+Clone this repo
+npm install
+npm start
 ```
 
-And repeat
+Make sure that to run this application you need to install chrome CORS extension. Otherwise it will throw cross-origin exception, as the client and API hostnames are different.
 
 ```
-until finished
+https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino
+OR
+https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+To run tests please execute below command:
 
 ```
-Give an example
+npm test
 ```
 
-### And coding style tests
+### To build for production
 
-Explain what these tests test and why
+Please execute below command. public folder contains all the required files to deploy to production.
 
 ```
-Give an example
-```
+npm run build
+``` 
 
-## Deployment
+## Author
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Avinash Adluri** - *Initial work* - (http://avinashadluri.com)
+ 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+@avinashadluri - 2020
+ 
