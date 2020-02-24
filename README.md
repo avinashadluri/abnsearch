@@ -55,7 +55,7 @@ npm run build
 
 ## Author
 
-* **Avinash Adluri** - *Initial work* - (http://avinashadluri.com)
+* **Avinash Adluri** - (http://avinashadluri.com)
  
 
 ## License
